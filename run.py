@@ -4,7 +4,6 @@ from config import Config
 #Instantiate an EPLRequest
 Yelp = YelpBusiness(Config)
 
-
 #Search Query Args
 term = 'restaurants'
 location = 'New York City, NY'

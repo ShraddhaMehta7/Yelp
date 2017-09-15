@@ -7,7 +7,6 @@ from config import Config
 from urllib.parse import quote
 from urllib.parse import urlencode
 
-
 class YelpBusiness:
     """Yelp request object"""
     def __init__(self,config):
