@@ -10,20 +10,19 @@ Read the Yelp-Fusion API documentation for more details about the data
 
 ## Installation
 
-Install a virtual environment of your choice
+1. Install a virtual environment of your choice
 
-Execute pip install -r requirements.txt
+2. Execute ''' pip install -r requirements.txt '''
 
-Edit the config.py with your Cliend Id and Secret
+3. Edit the config.py with your Cliend Id and Secret
 Read here for authentication steps: https://www.yelp.co.uk/developers/documentation/v3/authentication 
 
-Edit the run.py with the following details:
+4. Edit the run.py with the following details:
+   - term(str): Search term (e.g. "food", "restaurants"). If term isn’t included we search everything. The term keyword also accepts business names such as "Starbucks".
+   - location(str): Specifies the combination of "address, neighborhood, city, state or zip, optional country" to be used when searching for businesses.
+   - records(int): Number of records to be fetched.
 
-term(str): Search term (e.g. "food", "restaurants"). If term isn’t included we search everything. The term keyword also accepts business names such as "Starbucks".
-location(str): Specifies the combination of "address, neighborhood, city, state or zip, optional country" to be used when searching for businesses.
-records(int): Number of records to be fetched.
-
-Execute python run.py
+5. Execute ''' python run.py '''
 
 
 
