@@ -25,7 +25,7 @@ Read here for authentication steps: https://www.yelp.co.uk/developers/documentat
 
 5. Execute ``` python run.py ```
 
-
+Happy Yelp-ing!
 
 
 
