@@ -1,4 +1,4 @@
-# Yelp Code to fetch Business details and reviews
+# Yelp library to fetch Business details and reviews
 
 ## Overview
 
